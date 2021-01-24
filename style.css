@@ -1,0 +1,56 @@
+body {
+  background-image: url('https://i.postimg.cc/t4rgfSnz/tanuki023.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.main_title{
+  font-size: 50px;
+  font-weight: bold;
+  width: auto;
+  height: 70px;
+  margin: 50px auto;
+  padding: 30px auto;
+  text-align: center;
+}
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  width: auto;
+  height: 70px;
+  margin: 0 auto;
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+}
+.btns {
+  width: 80px;
+  height: 30px;
+  margin: 0 auto;
+}
+.btns span {
+  font-family: "微軟雅黑";
+  font-size: 14px;
+  line-height: 27px;
+  display: block;
+  float: left;
+  width: 80px;
+  height: 27px;
+  margin-right: 10px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 7px;
+  background: #036;
+}
+
+.input-group {
+  width: 300px;
+  height: 200px;
+}
