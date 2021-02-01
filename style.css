@@ -1,5 +1,5 @@
 body {
-  background-image: url('https://i.postimg.cc/t4rgfSnz/tanuki023.jpg');
+  background-image: url('./background.JPG');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -22,11 +22,18 @@ body {
   font-size: 48px;
   font-weight: bold;
   width: auto;
-  height: 70px;
+  height: 450px;
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 380px;
+  /* outline: 2px solid tomato; */
   text-align: center;
   color: white;
+}
+#play {
+  margin: 20px auto 300px;
+  /* outline: 2px solid tomato; */
+  height: 70px;
+  font-size: 40px;
 }
 .btns {
   width: 80px;
@@ -50,7 +57,20 @@ body {
   background: #036;
 }
 
+
 .input-group {
-  width: 300px;
-  height: 200px;
+display: flex;
+flex-flow:column wrap;
+align-content:center;
+/* outline: 2px solid black; */
+}
+.form-control {
+  width: 160px;
+  height: 300px;
+  margin-top: 30px;
+}
+.row {
+  /* height: 550px; */
+  /* outline: 4px solid gray; */
+  margin-top: 30px;
 }
